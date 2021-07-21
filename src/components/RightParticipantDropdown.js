@@ -6,7 +6,7 @@ const options = [
   { value: 'HIRO', label: 'Hiro' },
   { value: 'JACKIE', label: 'Jackie' },
   { value: 'SHORTS', label: 'Shorts' },
-  { value: 'CHET', label: 'Jackie' },
+  { value: 'CHET', label: 'Chet' },
   { value: 'RILEY', label: 'Riley' },
   { value: 'AKARI', label: 'Akari' },
   { value: 'VERONICA', label: 'Veronica' },
