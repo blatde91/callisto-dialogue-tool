@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/callisto-dialogue-tool/static/css/main.25cefa73.chunk.css",
-    "main.js": "/callisto-dialogue-tool/static/js/main.e3319a85.chunk.js",
-    "main.js.map": "/callisto-dialogue-tool/static/js/main.e3319a85.chunk.js.map",
+    "main.js": "/callisto-dialogue-tool/static/js/main.cf58c211.chunk.js",
+    "main.js.map": "/callisto-dialogue-tool/static/js/main.cf58c211.chunk.js.map",
     "runtime-main.js": "/callisto-dialogue-tool/static/js/runtime-main.290b3b37.js",
     "runtime-main.js.map": "/callisto-dialogue-tool/static/js/runtime-main.290b3b37.js.map",
     "static/js/2.70253255.chunk.js": "/callisto-dialogue-tool/static/js/2.70253255.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.290b3b37.js",
     "static/js/2.70253255.chunk.js",
     "static/css/main.25cefa73.chunk.css",
-    "static/js/main.e3319a85.chunk.js"
+    "static/js/main.cf58c211.chunk.js"
   ]
 }
