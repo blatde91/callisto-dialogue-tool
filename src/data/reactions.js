@@ -1,9 +1,4 @@
-import React, { Component } from 'react';
-import 'materialize-css';
-import Select from 'react-select';
-import { reactions } from '../data/reactions';
-
-const options = [
+export const reactions = [
   {
     label: "Hiro",
     value: 'HIRO',
@@ -207,7 +202,7 @@ const options = [
     value: "HERMIT",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "HermitNeutral", value: "sHermitChatNeutral"
       }
     ]
   },
@@ -216,7 +211,7 @@ const options = [
     value: "BUSHKA",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "BushkaNeutral", value: "sBushkaChatNeutral"
       }
     ]
   },
@@ -225,7 +220,7 @@ const options = [
     value: "TONY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "TonyNeutral", value: "sTonySnaps"
       }
     ]
   },
@@ -234,7 +229,7 @@ const options = [
     value: "GOSH",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "GoshNeutral", value: "sGoshChatGosh"
       }
     ]
   },
@@ -243,7 +238,7 @@ const options = [
     value: "CAMILLE",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "CamilleNeutral", value: "sCamilleCasualNeut"
       }
     ]
   },
@@ -252,7 +247,7 @@ const options = [
     value: "SMOUTH",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "NOSPRITE", value: "NOSPRITE"
       }
     ]
   },
@@ -261,7 +256,7 @@ const options = [
     value: "BEACHGUY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "BeachGuyNeutral", value: "sBeachGuyNeut"
       }
     ]
   },
@@ -270,7 +265,7 @@ const options = [
     value: "DIZZY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "DizzyNeutral", value: "sDizzyChatNeutral"
       }
     ]
   },
@@ -279,7 +274,7 @@ const options = [
     value: "BENTON",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "NOSPRITE", value: "NOSPRITE"
       }
     ]
   },
@@ -288,7 +283,7 @@ const options = [
     value: "DEKKO",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "NOSPRITE", value: "NOSPRITE"
       }
     ]
   },
@@ -297,7 +292,7 @@ const options = [
     value: "JENNY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "JennyNeutral", value: "sJennyChatNeut"
       }
     ]
   },
@@ -306,7 +301,7 @@ const options = [
     value: "BARB",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "BarbNeutral", value: "sBarbNeut"
       }
     ]
   },
@@ -315,7 +310,7 @@ const options = [
     value: "DANIEL",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "DanielNeutral", value: "sDanielSanNeut"
       }
     ]
   },
@@ -324,7 +319,7 @@ const options = [
     value: "IAN",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "IanNeutral", value: "sIanNeut"
       }
     ]
   },
@@ -333,7 +328,7 @@ const options = [
     value: "JOHN",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "JohnNeutral", value: "sJohnNeut"
       }
     ]
   },
@@ -342,7 +337,7 @@ const options = [
     value: "JEFF",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "Jeff", value: "sJeff"
       }
     ]
   },
@@ -351,7 +346,7 @@ const options = [
     value: "DOC",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "DocNeutral", value: "sDocChatNeutral"
       }
     ]
   },
@@ -360,7 +355,7 @@ const options = [
     value: "MURPHY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "MurphyNeutral", value: "NOSPRITE"
       }
     ]
   },
@@ -369,7 +364,7 @@ const options = [
     value: "KENNY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "KennyNeutral", value: "sKennyChatNeutral"
       }
     ]
   },
@@ -378,7 +373,7 @@ const options = [
     value: "REPORTER",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "ReporterNeutral", value: "sReporterNeut"
       }
     ]
   },
@@ -387,7 +382,7 @@ const options = [
     value: "ONEARMEDBOY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "OneArmedBoyNeutral", value: "sOneArmedBoyChatNeutral"
       }
     ]
   },
@@ -396,7 +391,7 @@ const options = [
     value: "RYNN",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "RynnNeutral", value: "sRynnNeut"
       }
     ]
   },
@@ -405,7 +400,7 @@ const options = [
     value: "BABERUTH",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "BabeNeutral", value: "sBabeChatNeut"
       }
     ]
   },
@@ -414,7 +409,7 @@ const options = [
     value: "DOC_RADIO",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "DOC_RADIO", value: "sDocChatNeutral"
       }
     ]
   },
@@ -423,7 +418,7 @@ const options = [
     value: "MYSTERIOUSMAN",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "MysteriousMan", value: "sMysteriousMan"
       }
     ]
   },
@@ -432,25 +427,13 @@ const options = [
     value: "PEACHY",
     options: [
       {
-        label: "RoccoNeutral", value: "sRoccoGChatNeutral"
+        label: "PeachyNeutral", value: "sPeachyChatNeut"
       }
     ]
   }
+
 ]
 
-class ReactionDropdown extends Component {
-  render() {
-    return (
-      <Select
-        isMulti
-        name="participants"
-        defaultValue={this.props.participants}
-        value={this.props.portraits}
-        options={reactions}
-        onChange={this.props.onChange}
-      />
-    )
-  }
-};
-
-export default ReactionDropdown;
+export default {
+  reactions
+}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'materialize-css';
+import { characters } from '../data/characters';
 import Select from 'react-select';
 
 const options = [
@@ -34,7 +35,7 @@ class RightParticipantDropdown extends Component {
         isMulti
         name="rightParticipants"
         value={this.props.rightParticipants}
-        options={options}
+        options={characters}
         onChange={this.props.onChange}
       />
     )
