@@ -343,8 +343,9 @@ class DialogueForm extends Component {
       ${getsInterrupted}
       `
       dialogueString = dialogueString.trim();
+      console.log(dialogueString)
       if(!skipNameplate){
-        var namePosition = '';
+        var namePosition;
         console.log('namepos', item.namePosition)
         if(item.namePosition == 2 && this.state.leftParticipants.length == 1){
           console.log('only part on left is speaker, default case')
@@ -352,13 +353,13 @@ class DialogueForm extends Component {
           console.log("writing name position")
           namePosition = `namePosition[i] = ${item.namePosition};`
         }
-  
         dialogueString = `
-        ${dialogueString}
-        ${namePosition}
-        `
-  
+      ${dialogueString}
+      ${namePosition}
+      `
         dialogueString = dialogueString.trim();
+        console.log(dialogueString)
+
       }
       
       dialogueString = 
