@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/callisto-dialogue-tool/static/css/main.25cefa73.chunk.css",
-    "main.js": "/callisto-dialogue-tool/static/js/main.e3319a85.chunk.js",
-    "main.js.map": "/callisto-dialogue-tool/static/js/main.e3319a85.chunk.js.map",
+    "main.js": "/callisto-dialogue-tool/static/js/main.15d29b18.chunk.js",
+    "main.js.map": "/callisto-dialogue-tool/static/js/main.15d29b18.chunk.js.map",
     "runtime-main.js": "/callisto-dialogue-tool/static/js/runtime-main.290b3b37.js",
     "runtime-main.js.map": "/callisto-dialogue-tool/static/js/runtime-main.290b3b37.js.map",
-    "static/js/2.70253255.chunk.js": "/callisto-dialogue-tool/static/js/2.70253255.chunk.js",
-    "static/js/2.70253255.chunk.js.map": "/callisto-dialogue-tool/static/js/2.70253255.chunk.js.map",
+    "static/js/2.c4e064cd.chunk.js": "/callisto-dialogue-tool/static/js/2.c4e064cd.chunk.js",
+    "static/js/2.c4e064cd.chunk.js.map": "/callisto-dialogue-tool/static/js/2.c4e064cd.chunk.js.map",
     "index.html": "/callisto-dialogue-tool/index.html",
     "static/css/main.25cefa73.chunk.css.map": "/callisto-dialogue-tool/static/css/main.25cefa73.chunk.css.map",
-    "static/js/2.70253255.chunk.js.LICENSE.txt": "/callisto-dialogue-tool/static/js/2.70253255.chunk.js.LICENSE.txt"
+    "static/js/2.c4e064cd.chunk.js.LICENSE.txt": "/callisto-dialogue-tool/static/js/2.c4e064cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.290b3b37.js",
-    "static/js/2.70253255.chunk.js",
+    "static/js/2.c4e064cd.chunk.js",
     "static/css/main.25cefa73.chunk.css",
-    "static/js/main.e3319a85.chunk.js"
+    "static/js/main.15d29b18.chunk.js"
   ]
 }
