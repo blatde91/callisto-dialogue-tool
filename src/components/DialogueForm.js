@@ -351,7 +351,8 @@ class DialogueForm extends Component {
           console.log('only part on left is speaker, default case')
         } else{
           console.log("writing name position")
-          namePosition = `namePosition[i] = ${item.namePosition};`dialogueString = `
+          namePosition = `namePosition[i] = ${item.namePosition};`
+          dialogueString = `
       ${dialogueString}
       ${namePosition}
       `
