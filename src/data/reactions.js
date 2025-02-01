@@ -423,6 +423,15 @@ export const reactions = [
     ]
   },
   {
+    label: "Demetrius",
+    value: "DEMETRIUS",
+    options: [
+      {
+        label: "DemetriusNetural", value: "sDemetrius"
+      }
+    ]
+  },
+  {
     label: "Peachy",
     value: "PEACHY",
     options: [
